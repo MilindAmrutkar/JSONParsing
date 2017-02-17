@@ -13,7 +13,7 @@ public class HomePageActivity extends AppCompatActivity {
     }
 
     public void btnReportClicked() {
-
+        //Something on button click
     }
 
     public void btnPhotoClicked() {
