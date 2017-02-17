@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:id="@+id/txtViewSingleListItem_atm_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#703467"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="ATM id" />
+
+    <TextView
+        android:id="@+id/txtViewSingleListItem_customer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Customer Name" />
+
+    <TextView
+        android:id="@+id/txtViewSingleListItem_bank_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="Bank Name" />
+</LinearLayout>
